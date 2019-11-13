@@ -1,0 +1,4 @@
+<launch>
+	<node name="publisher_node" pkg="mastering_ros" type="demo_service_client" output="screen"/>
+	<node name="subscriber_node" pkg="mastering_ros" type="demo_service_server" output="screen"/>
+</launch>
